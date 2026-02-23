@@ -1,0 +1,15 @@
+[2026-02-23 17:48:04] [0;32mI (10930) Main: System initialization started[0m
+[2026-02-23 17:48:04] [0;32mI (10980) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-23 17:48:04] [0;32mI (11000) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-23 17:48:04] [0;32mI (11010) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-23 17:48:04] [0;32mI (11030) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-23 17:48:04] [0;32mI (11070) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-23 17:48:04] [0;32mI (11100) ACTIVITY_LOG: LittleFS mounted[0m
+[2026-02-23 17:48:04] [0;32mI (11220) RTC: RTC time restored from NVS[0m
+[2026-02-23 17:48:04] [0;32mI (11270) SCREEN_DISPLAY: Display task started[0m
+[2026-02-23 17:48:04] [0;32mI (11280) USB_UPDATE: USB update task started[0m
+[2026-02-23 17:48:04] [0;32mI (11350) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-02-23 17:48:04] [0;32mI (11280) Main: USB update task created successfully[0m
+[2026-02-23 17:48:04] [0;32mI (11530) Main: lcd_bl_timer task created successfully[0m
+[2026-02-23 17:48:04] [0;32mI (11560) Main: Starting application[0m
+[2026-02-23 17:48:08] [0;32mI (15700) main_task: Returned from app_main()[0m
