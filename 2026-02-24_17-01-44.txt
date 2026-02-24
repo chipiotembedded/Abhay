@@ -1,0 +1,65 @@
+[2026-02-24 16:58:47] [0;32mI (7891) Main: System initialization started[0m
+[2026-02-24 16:58:47] [0;32mI (7941) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 16:58:47] [0;32mI (7961) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 16:58:47] [0;32mI (7971) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 16:58:47] [0;32mI (7981) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 16:58:47] [0;32mI (8021) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 16:58:47] [0;32mI (8051) ACTIVITY_LOG: LittleFS mounted[0m
+[2026-02-24 16:58:48] [0;33mW (8131) LORA: Entering the receiver mode...[0m
+[2026-02-24 16:58:48] [0;32mI (8271) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 16:58:48] [0;32mI (8331) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-02-24 16:58:48] [0;32mI (8131) Main: USB update task created successfully[0m
+[2026-02-24 16:58:48] [0;32mI (8451) Main: lcd_bl_timer task created successfully[0m
+[2026-02-24 16:58:48] [0;32mI (8481) Main: Starting application[0m
+[2026-02-24 16:58:52] [0;32mI (12621) main_task: Returned from app_main()[0m
+[2026-02-24 17:00:18] [0;32mI (99061) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:00:19] [0;32mI (99121) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:00:19] [0;32mI (99191) ACTIVITY_LOG: Log stored. Total: 19[0m
+[2026-02-24 17:00:19] [0;32mI (99221) LORA_RECEIVE: Received at: 24-02-2026 17:00:19[0m
+[2026-02-24 17:00:19] [0;33mW (99251) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:00:19] [0;32mI (99421) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:00:25] [0;32mI (105651) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:00:25] [0;32mI (105711) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:00:25] [0;32mI (105781) ACTIVITY_LOG: Log stored. Total: 20[0m
+[2026-02-24 17:00:25] [0;32mI (105811) LORA_RECEIVE: Received at: 24-02-2026 17:00:25[0m
+[2026-02-24 17:00:25] [0;33mW (105841) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:00:25] [0;32mI (105871) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:00:34] [0;32mI (114911) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:00:34] [0;32mI (114971) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:00:34] [0;32mI (115041) ACTIVITY_LOG: Log stored. Total: 21[0m
+[2026-02-24 17:00:34] [0;32mI (115081) LORA_RECEIVE: Received at: 24-02-2026 17:00:34[0m
+[2026-02-24 17:00:35] [0;33mW (115121) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:00:35] [0;32mI (115161) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:00:40] [0;32mI (120331) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:00:40] [0;32mI (120391) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:00:40] [0;32mI (120461) ACTIVITY_LOG: Log stored. Total: 22[0m
+[2026-02-24 17:00:40] [0;32mI (120501) LORA_RECEIVE: Received at: 24-02-2026 17:00:40[0m
+[2026-02-24 17:00:40] [0;33mW (120541) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:00:40] [0;32mI (120581) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:01:02] [0;32mI (142921) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:01:02] [0;32mI (142991) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:01:02] [0;32mI (143071) ACTIVITY_LOG: Log stored. Total: 23[0m
+[2026-02-24 17:01:03] [0;32mI (143111) LORA_RECEIVE: Received at: 24-02-2026 17:01:03[0m
+[2026-02-24 17:01:03] [0;33mW (143161) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:01:03] [0;32mI (143201) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:01:13] [0;32mI (153151) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:01:13] [0;32mI (153341) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:01:13] [0;32mI (153441) ACTIVITY_LOG: Log stored. Total: 24[0m
+[2026-02-24 17:01:13] [0;32mI (153471) LORA_RECEIVE: Received at: 24-02-2026 17:01:13[0m
+[2026-02-24 17:01:13] [0;33mW (153501) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:01:13] [0;32mI (153531) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:01:26] [0;31mE (166551) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-24 17:01:26] [0;31mE (166571) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-24 17:01:26] [0;32mI (166601) USB_UPDATE: USB connected - installing device[0m
+[2026-02-24 17:01:27] [0;31mE (167381) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[2026-02-24 17:01:27] [0;31mE (167431) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[2026-02-24 17:01:28] [0;32mI (168571) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-02-24 17:01:28] [0;32mI (168731) USB_UPDATE: Password file copied to LittleFS[0m
+[2026-02-24 17:01:28] [0;32mI (168761) PASSWORD: Password loaded[0m
+[2026-02-24 17:01:44] [0;32mI (184331) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-02-24 17:01:44] [0;32mI (184381) LOG_MANAGER: LittleFS log file size: 5366 bytes[0m
+[2026-02-24 17:01:44] [0;32mI (184441) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-02-24 17:01:44] [0;32mI (184481) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-02-24 17:01:44] [0;32mI (184531) TIME: Year now = 2026[0m
+[2026-02-24 17:01:44] [0;32mI (184571) TIME: Hour now = 17[0m
+[2026-02-24 17:01:44] [0;32mI (184601) GITHUB_UPLOADER: Uploading as: 2026-02-24_17-01-44.txt[0m
