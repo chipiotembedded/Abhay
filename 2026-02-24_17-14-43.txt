@@ -1,0 +1,55 @@
+[2026-02-24 17:13:28] [0;32mI (5871) Main: System initialization started[0m
+[2026-02-24 17:13:28] [0;32mI (5921) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 17:13:28] [0;32mI (5941) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 17:13:28] [0;32mI (5951) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 17:13:29] [0;32mI (5971) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 17:13:29] [0;32mI (6131) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-24 17:13:29] [0;32mI (6161) ACTIVITY_LOG: LittleFS mounted[0m
+[2026-02-24 17:13:29] [0;33mW (6201) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:13:29] [0;32mI (6231) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:13:29] [0;32mI (6321) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-02-24 17:13:29] [0;32mI (6381) PASSWORD: Password loaded[0m
+[2026-02-24 17:13:29] [0;32mI (6411) Main: lcd_bl_timer task created successfully[0m
+[2026-02-24 17:13:29] [0;32mI (6501) Main: Starting application[0m
+[2026-02-24 17:13:33] [0;32mI (10641) main_task: Returned from app_main()[0m
+[2026-02-24 17:13:46] [0;31mE (23781) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-24 17:13:46] [0;31mE (23821) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-24 17:13:47] [0;32mI (23971) USB_UPDATE: USB connected - installing device[0m
+[2026-02-24 17:13:47] [0;31mE (24751) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[2026-02-24 17:13:47] [0;31mE (24801) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[2026-02-24 17:13:48] [0;32mI (25941) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-02-24 17:13:49] [0;32mI (25981) USB_UPDATE: Password file copied to LittleFS[0m
+[2026-02-24 17:13:49] [0;32mI (26041) PASSWORD: Password loaded[0m
+[2026-02-24 17:14:09] [0;32mI (46781) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:14:09] [0;32mI (46841) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:14:09] [0;32mI (46921) ACTIVITY_LOG: Log stored. Total: 25[0m
+[2026-02-24 17:14:09] [0;32mI (46951) LORA_RECEIVE: Received at: 24-02-2026 17:14:09[0m
+[2026-02-24 17:14:10] [0;33mW (46991) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:14:10] [0;32mI (47141) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:14:15] [0;32mI (52471) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:14:15] [0;32mI (52531) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:14:15] [0;32mI (52601) ACTIVITY_LOG: Log stored. Total: 26[0m
+[2026-02-24 17:14:15] [0;32mI (52641) LORA_RECEIVE: Received at: 24-02-2026 17:14:15[0m
+[2026-02-24 17:14:15] [0;33mW (52671) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:14:15] [0;32mI (52701) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:14:18] [0;32mI (55041) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:14:18] [0;33mW (55081) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-02-24 17:14:18] [0;33mW (55121) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:14:18] [0;32mI (55171) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:14:20] [0;32mI (57911) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:14:21] [0;32mI (57981) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-02-24 17:14:21] [0;32mI (58201) ACTIVITY_LOG: Log stored. Total: 27[0m
+[2026-02-24 17:14:21] [0;32mI (58241) LORA_RECEIVE: Received at: 24-02-2026 17:14:21[0m
+[2026-02-24 17:14:21] [0;33mW (58281) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:14:21] [0;32mI (58321) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:14:24] [0;32mI (61471) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-02-24 17:14:24] [0;33mW (61541) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-02-24 17:14:24] [0;33mW (61571) LORA: Entering the receiver mode...[0m
+[2026-02-24 17:14:24] [0;32mI (61601) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-24 17:14:43] [0;32mI (80621) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-02-24 17:14:43] [0;32mI (80701) LOG_MANAGER: LittleFS log file size: 4480 bytes[0m
+[2026-02-24 17:14:43] [0;32mI (80761) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-02-24 17:14:43] [0;32mI (80801) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-02-24 17:14:43] [0;32mI (80861) TIME: Year now = 2026[0m
+[2026-02-24 17:14:43] [0;32mI (80901) TIME: Hour now = 17[0m
+[2026-02-24 17:14:44] [0;32mI (80931) GITHUB_UPLOADER: Uploading as: 2026-02-24_17-14-43.txt[0m
