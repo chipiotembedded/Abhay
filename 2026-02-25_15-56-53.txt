@@ -1,0 +1,33 @@
+[2026-02-25 15:55:05] [0;32mI (6491) Main: System initialization started[0m
+[2026-02-25 15:55:05] [0;32mI (6541) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-25 15:55:05] [0;32mI (6561) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-25 15:55:05] [0;32mI (6571) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-25 15:55:05] [0;32mI (6581) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-25 15:55:05] [0;32mI (6621) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-25 15:55:05] [0;32mI (6651) ACTIVITY_LOG: LittleFS mounted[0m
+[2026-02-25 15:55:05] [0;33mW (6711) LORA: Entering the receiver mode...[0m
+[2026-02-25 15:55:05] [0;32mI (6871) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-25 15:55:05] [0;32mI (6931) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-02-25 15:55:06] [0;32mI (6711) Main: USB update task created successfully[0m
+[2026-02-25 15:55:06] [0;32mI (7051) Main: lcd_bl_timer task created successfully[0m
+[2026-02-25 15:55:06] [0;32mI (7081) Main: Starting application[0m
+[2026-02-25 15:55:10] [0;32mI (11221) main_task: Returned from app_main()[0m
+[2026-02-25 15:56:36] [0;31mE (97551) ACTIVITY_COPY: Failed to open USB file[0m
+[2026-02-25 15:56:45] [0;31mE (106851) HUB: Failed to issue second reset[0m
+[2026-02-25 15:56:45] [0;31mE (106891) HUB: Stage failed: SECOND_RESET[0m
+[2026-02-25 15:56:45] [0;31mE (106921) USBH: Device 0 gone[0m
+[2026-02-25 15:56:46] [0;31mE (107341) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-25 15:56:46] [0;31mE (107381) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-25 15:56:46] [0;32mI (107551) USB_UPDATE: USB connected - installing device[0m
+[2026-02-25 15:56:47] [0;31mE (108321) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[2026-02-25 15:56:47] [0;31mE (108361) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[2026-02-25 15:56:48] [0;32mI (109501) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-02-25 15:56:48] [0;32mI (109541) USB_UPDATE: Password file copied to LittleFS[0m
+[2026-02-25 15:56:48] [0;32mI (109601) PASSWORD: Password loaded[0m
+[2026-02-25 15:56:52] [0;32mI (113941) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-02-25 15:56:53] [0;32mI (114001) LOG_MANAGER: LittleFS log file size: 2552 bytes[0m
+[2026-02-25 15:56:53] [0;32mI (114071) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-02-25 15:56:53] [0;32mI (114121) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-02-25 15:56:53] [0;32mI (114191) TIME: Year now = 2026[0m
+[2026-02-25 15:56:53] [0;32mI (114241) TIME: Hour now = 15[0m
+[2026-02-25 15:56:53] [0;32mI (114401) GITHUB_UPLOADER: Uploading as: 2026-02-25_15-56-53.txt[0m
