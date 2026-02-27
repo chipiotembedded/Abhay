@@ -1,0 +1,31 @@
+[2026-02-27 10:55:35] [0;32mI (3871) Main: System initialization started[0m
+[2026-02-27 10:55:35] [0;32mI (3921) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-27 10:55:35] [0;32mI (3941) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-27 10:55:35] [0;32mI (3951) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-27 10:55:35] [0;32mI (3971) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-27 10:55:35] [0;32mI (4031) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-02-27 10:55:35] [0;32mI (4061) ACTIVITY_LOG: LittleFS mounted[0m
+[2026-02-27 10:55:36] [0;33mW (4221) LORA: Entering the receiver mode...[0m
+[2026-02-27 10:55:36] [0;32mI (4261) LORA: LoRa set to continuous receive mode.[0m
+[2026-02-27 10:55:36] [0;32mI (4291) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-02-27 10:55:36] [0;32mI (4331) PASSWORD: Password loaded[0m
+[2026-02-27 10:55:36] [0;32mI (4381) USB_UPDATE: USB update task started[0m
+[2026-02-27 10:55:36] [0;32mI (4421) USB_UPDATE: Waiting for USB device[0m
+[2026-02-27 10:55:36] [0;32mI (4451) Main: lcd_bl_timer task created successfully[0m
+[2026-02-27 10:55:36] [0;32mI (4511) Main: Starting application[0m
+[2026-02-27 10:55:40] [0;32mI (8651) main_task: Returned from app_main()[0m
+[2026-02-27 10:56:25] [0;31mE (53831) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-27 10:56:25] [0;31mE (53871) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[2026-02-27 10:56:25] [0;32mI (53911) USB_UPDATE: USB connected - installing device[0m
+[2026-02-27 10:56:26] [0;31mE (54841) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[2026-02-27 10:56:26] [0;31mE (54891) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[2026-02-27 10:56:27] [0;32mI (56031) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-02-27 10:56:28] [0;32mI (56071) PASSWORD: Password file copied to LittleFS[0m
+[2026-02-27 10:56:28] [0;32mI (56141) PASSWORD: Password loaded[0m
+[2026-02-27 10:56:47] [0;32mI (75401) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-02-27 10:56:47] [0;32mI (75451) LOG_MANAGER: LittleFS log file size: 2378 bytes[0m
+[2026-02-27 10:56:47] [0;32mI (75521) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-02-27 10:56:47] [0;32mI (75571) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-02-27 10:56:47] [0;32mI (75651) TIME: Year now = 2026[0m
+[2026-02-27 10:56:47] [0;32mI (75691) TIME: Hour now = 10[0m
+[2026-02-27 10:56:47] [0;32mI (75851) GITHUB_UPLOADER: Uploading as: 2026-02-27_10-56-47.txt[0m
