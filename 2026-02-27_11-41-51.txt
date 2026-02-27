@@ -1,0 +1,31 @@
+[1970-01-01 05:30:29] [0;32mI (29881) Main: System initialization started[0m
+[1970-01-01 05:30:29] [0;32mI (29931) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 05:30:29] [0;32mI (29951) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 05:30:29] [0;32mI (30121) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 05:30:29] [0;32mI (30131) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 05:30:29] [0;32mI (30161) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 05:30:29] [0;32mI (30211) ACTIVITY_LOG: LittleFS mounted[0m
+[1970-01-01 05:30:29] [0;33mW (30261) LORA: Entering the receiver mode...[0m
+[1970-01-01 05:30:29] [0;32mI (30301) LORA: LoRa set to continuous receive mode.[0m
+[1970-01-01 05:30:29] [0;32mI (30331) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[1970-01-01 05:30:30] [0;32mI (30381) PASSWORD: Password loaded[0m
+[1970-01-01 05:30:30] [0;32mI (30521) SCREEN_DISPLAY: Display task started[0m
+[1970-01-01 05:30:30] [0;32mI (30541) Main: USB update task created successfully[0m
+[1970-01-01 05:30:30] [0;32mI (30641) Main: lcd_bl_timer task created successfully[0m
+[1970-01-01 05:30:30] [0;32mI (30671) Main: Starting application[0m
+[1970-01-01 05:30:30] [0;31mE (30991) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[1970-01-01 05:30:30] [0;31mE (31031) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[1970-01-01 05:30:30] [0;32mI (31071) USB_UPDATE: USB connected - installing device[0m
+[1970-01-01 05:30:31] [0;31mE (31851) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[1970-01-01 05:30:31] [0;31mE (31891) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[1970-01-01 05:30:32] [0;32mI (33041) USB_UPDATE: CSV copied to LittleFS[0m
+[1970-01-01 05:30:32] [0;32mI (33221) PASSWORD: Password file copied to LittleFS[0m
+[1970-01-01 05:30:32] [0;32mI (33261) PASSWORD: Password loaded[0m
+[1970-01-01 05:30:34] [0;32mI (34811) main_task: Returned from app_main()[0m
+[2026-02-27 11:41:50] [0;32mI (483621) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-02-27 11:41:50] [0;32mI (483671) LOG_MANAGER: LittleFS log file size: 2404 bytes[0m
+[2026-02-27 11:41:50] [0;32mI (483741) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-02-27 11:41:51] [0;32mI (483781) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-02-27 11:41:51] [0;32mI (483861) TIME: Year now = 2026[0m
+[2026-02-27 11:41:51] [0;32mI (483901) TIME: Hour now = 11[0m
+[2026-02-27 11:41:51] [0;32mI (483951) GITHUB_UPLOADER: Uploading as: 2026-02-27_11-41-51.txt[0m
