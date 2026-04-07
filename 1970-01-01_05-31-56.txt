@@ -1,0 +1,155 @@
+[1970-01-01 00:00:00] [0;32mI (616) Main: Step 3: System initialize[0m
+[1970-01-01 00:00:00] [0;32mI (676) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (696) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (816) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (826) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (866) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (886) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:00] [0;32mI (946) ACTIVITY_LOG: Activity log initialised. Entries: 48[0m
+[1970-01-01 00:00:00] [0;33mW (1016) LORA: Entering the receiver mode...[0m
+[1970-01-01 00:00:00] [0;32mI (1086) LORA: LoRa set to continuous receive mode.[0m
+[1970-01-01 00:00:00] [0;32mI (1116) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[1970-01-01 00:00:00] [0;32mI (1246) PASSWORD: Password loaded[0m
+[1970-01-01 00:00:00] [0;32mI (1276) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:00] [0;32mI (1306) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:00] [0;32mI (1336) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:02] [0;32mI (2396) Main: Step 4: Waiting for WiFi[0m
+[1970-01-01 00:00:02] [0;32mI (2456) pp: pp rom version: e7ae62f[0m
+[1970-01-01 00:00:02] [0;32mI (2496) net80211: net80211 rom version: e7ae62f[0m
+[1970-01-01 00:00:02] I (2546) wifi:[1970-01-01 00:00:02] wifi driver task: 3fcb7ae0, prio:23, stack:6656, core=0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2656) wifi:[1970-01-01 00:00:02] wifi firmware version: ccaebfa[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2776) wifi:[1970-01-01 00:00:02] wifi certification version: v7.0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3036) wifi:[1970-01-01 00:00:02] config NVS flash: enabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3136) wifi:[1970-01-01 00:00:02] config nano formating: disabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3256) wifi:[1970-01-01 00:00:02] Init data frame dynamic rx buffer num: 32[1970-01-01 00:00:02] 
+[1970-01-01 00:00:03] I (3376) wifi:[1970-01-01 00:00:03] Init static rx mgmt buffer num: 5[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3496) wifi:[1970-01-01 00:00:03] Init management short buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3766) wifi:[1970-01-01 00:00:03] Init dynamic tx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3876) wifi:[1970-01-01 00:00:03] Init static tx FG buffer num: 2[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3996) wifi:[1970-01-01 00:00:03] Init static rx buffer size: 1600[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (4116) wifi:[1970-01-01 00:00:03] Init static rx buffer num: 10[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (4246) wifi:[1970-01-01 00:00:04] Init dynamic rx buffer num: 32[1970-01-01 00:00:04] 
+[1970-01-01 00:00:04] [0;32mI (4536) wifi_init: rx ba win: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4576) wifi_init: accept mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4616) wifi_init: tcpip mbox: 32[0m
+[1970-01-01 00:00:04] [0;32mI (4656) wifi_init: udp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4696) wifi_init: tcp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4736) wifi_init: tcp tx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4796) wifi_init: tcp rx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4836) wifi_init: tcp mss: 1440[0m
+[1970-01-01 00:00:04] [0;32mI (4896) wifi_init: WiFi IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4936) wifi_init: WiFi RX IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (5006) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:04] [0;32mI (5056) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:04] [0;32mI (5106) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:05] [0;32mI (6176) WIFI_MANAGER: Using stored WiFi credentials[0m
+[1970-01-01 00:00:05] I (6336) wifi:[1970-01-01 00:00:06] Set ps type: 0, coexist: 0
+[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] [0;32mI (6416) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[1970-01-01 00:00:06] I (6486) wifi:[1970-01-01 00:00:06] mode : sta (98:a3:16:c4:8b:d8)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6586) wifi:[1970-01-01 00:00:06] enable tsf[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] [0;32mI (6676) WIFI_MANAGER: WiFi Started. Connecting...[0m
+[1970-01-01 00:00:06] [0;32mI (6676) WIFI_MANAGER: WiFi initialization finished[0m
+[1970-01-01 00:00:06] I (7056) wifi:[1970-01-01 00:00:06] state: auth -> assoc (0x0)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7156) wifi:[1970-01-01 00:00:06] state: assoc -> run (0x10)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7276) wifi:[1970-01-01 00:00:06] connected with Paras 2.4, aid = 5, channel 10, BW20, bssid = 40:ed:00:55:66:41[1970-01-01 00:00:06] 
+[1970-01-01 00:00:07] I (7376) wifi:[1970-01-01 00:00:07] security: WPA2-PSK, phy: bgn, rssi: -45[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7596) wifi:[1970-01-01 00:00:07] pm start, type: 0
+[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7686) wifi:[1970-01-01 00:00:07] dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7776) wifi:[1970-01-01 00:00:07] set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7866) wifi:[1970-01-01 00:00:07] AP's beacon interval = 102400 us, DTIM period = 1[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (8036) wifi:[1970-01-01 00:00:07] <ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), tid:0, ssn:2, winSize:64[1970-01-01 00:00:07] 
+[1970-01-01 00:00:08] [0;32mI (8976) esp_netif_handlers: sta ip: 192.168.1.186, mask: 255.255.255.0, gw: 192.168.1.102[0m
+[1970-01-01 00:00:08] [0;32mI (9016) WIFI_MANAGER: Got IP: 192.168.1.186[0m
+[1970-01-01 00:00:10] [0;32mI (11046) WIFI_MANAGER: Connected to WiFi successfully[0m
+[1970-01-01 00:00:10] [0;32mI (11106) RTC: RTC init started[0m
+[1970-01-01 05:30:12] [0;32mI (13156) RTC: Initialising SNTP[0m
+[1970-01-01 05:30:13] [0;32mI (14196) RTC: Waiting for SNTP sync... (0/30000 ms)[0m
+[1970-01-01 05:30:14] [0;32mI (14736) RTC: Waiting for SNTP sync... (500/30000 ms)[0m
+[1970-01-01 05:30:14] [0;32mI (15276) RTC: Waiting for SNTP sync... (1000/30000 ms)[0m
+[1970-01-01 05:30:15] [0;32mI (15816) RTC: Waiting for SNTP sync... (1500/30000 ms)[0m
+[1970-01-01 05:30:16] [0;32mI (16366) RTC: Waiting for SNTP sync... (2000/30000 ms)[0m
+[1970-01-01 05:30:16] [0;32mI (16926) RTC: Waiting for SNTP sync... (2500/30000 ms)[0m
+[1970-01-01 05:30:16] I (17216) wifi:[1970-01-01 05:30:16] <ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), tid:4, ssn:1, winSize:64[1970-01-01 05:30:17] 
+[1970-01-01 05:30:17] [0;32mI (17466) RTC: Waiting for SNTP sync... (3000/30000 ms)[0m
+[1970-01-01 05:30:17] [0;32mI (18046) RTC: Waiting for SNTP sync... (3500/30000 ms)[0m
+[1970-01-01 05:30:18] [0;32mI (18596) RTC: Waiting for SNTP sync... (4000/30000 ms)[0m
+[1970-01-01 05:30:18] [0;32mI (19136) RTC: Waiting for SNTP sync... (4500/30000 ms)[0m
+[1970-01-01 05:30:19] [0;32mI (19686) RTC: Waiting for SNTP sync... (5000/30000 ms)[0m
+[1970-01-01 05:30:19] [0;32mI (20236) RTC: Waiting for SNTP sync... (5500/30000 ms)[0m
+[1970-01-01 05:30:20] [0;32mI (20786) RTC: Waiting for SNTP sync... (6000/30000 ms)[0m
+[1970-01-01 05:30:20] [0;32mI (21336) RTC: Waiting for SNTP sync... (6500/30000 ms)[0m
+[1970-01-01 05:30:21] [0;32mI (21886) RTC: Waiting for SNTP sync... (7000/30000 ms)[0m
+[1970-01-01 05:30:22] [0;32mI (22436) RTC: Waiting for SNTP sync... (7500/30000 ms)[0m
+[1970-01-01 05:30:22] [0;32mI (22986) RTC: Waiting for SNTP sync... (8000/30000 ms)[0m
+[1970-01-01 05:30:23] [0;32mI (23536) RTC: Waiting for SNTP sync... (8500/30000 ms)[0m
+[1970-01-01 05:30:23] [0;32mI (24086) RTC: Waiting for SNTP sync... (9000/30000 ms)[0m
+[1970-01-01 05:30:24] [0;32mI (24666) RTC: Waiting for SNTP sync... (9500/30000 ms)[0m
+[1970-01-01 05:30:24] [0;32mI (25206) RTC: Waiting for SNTP sync... (10000/30000 ms)[0m
+[1970-01-01 05:30:25] [0;32mI (25876) RTC: Waiting for SNTP sync... (10500/30000 ms)[0m
+[1970-01-01 05:30:26] [0;32mI (26396) RTC: Waiting for SNTP sync... (11000/30000 ms)[0m
+[1970-01-01 05:30:26] [0;32mI (26926) RTC: Waiting for SNTP sync... (11500/30000 ms)[0m
+[1970-01-01 05:30:27] [0;32mI (27466) RTC: Waiting for SNTP sync... (12000/30000 ms)[0m
+[1970-01-01 05:30:27] [0;32mI (28006) RTC: Waiting for SNTP sync... (12500/30000 ms)[0m
+[1970-01-01 05:30:28] [0;32mI (28546) RTC: Waiting for SNTP sync... (13000/30000 ms)[0m
+[1970-01-01 05:30:28] [0;32mI (29086) RTC: Waiting for SNTP sync... (13500/30000 ms)[0m
+[1970-01-01 05:30:29] [0;32mI (29626) RTC: Waiting for SNTP sync... (14000/30000 ms)[0m
+[1970-01-01 05:30:29] [0;32mI (30166) RTC: Waiting for SNTP sync... (14500/30000 ms)[0m
+[1970-01-01 05:30:30] [0;32mI (30706) RTC: Waiting for SNTP sync... (15000/30000 ms)[0m
+[1970-01-01 05:30:30] [0;32mI (31246) RTC: Waiting for SNTP sync... (15500/30000 ms)[0m
+[1970-01-01 05:30:31] [0;32mI (31786) RTC: Waiting for SNTP sync... (16000/30000 ms)[0m
+[1970-01-01 05:30:31] [0;32mI (32326) RTC: Waiting for SNTP sync... (16500/30000 ms)[0m
+[1970-01-01 05:30:32] [0;32mI (32866) RTC: Waiting for SNTP sync... (17000/30000 ms)[0m
+[1970-01-01 05:30:33] [0;32mI (33406) RTC: Waiting for SNTP sync... (17500/30000 ms)[0m
+[1970-01-01 05:30:33] [0;32mI (34086) RTC: Waiting for SNTP sync... (18000/30000 ms)[0m
+[1970-01-01 05:30:34] [0;32mI (34626) RTC: Waiting for SNTP sync... (18500/30000 ms)[0m
+[1970-01-01 05:30:34] [0;32mI (35166) RTC: Waiting for SNTP sync... (19000/30000 ms)[0m
+[1970-01-01 05:30:35] [0;32mI (35706) RTC: Waiting for SNTP sync... (19500/30000 ms)[0m
+[1970-01-01 05:30:35] [0;32mI (36246) RTC: Waiting for SNTP sync... (20000/30000 ms)[0m
+[1970-01-01 05:30:36] [0;32mI (36786) RTC: Waiting for SNTP sync... (20500/30000 ms)[0m
+[1970-01-01 05:30:36] [0;32mI (37326) RTC: Waiting for SNTP sync... (21000/30000 ms)[0m
+[1970-01-01 05:30:37] [0;32mI (37866) RTC: Waiting for SNTP sync... (21500/30000 ms)[0m
+[1970-01-01 05:30:38] [0;32mI (38406) RTC: Waiting for SNTP sync... (22000/30000 ms)[0m
+[1970-01-01 05:30:38] [0;32mI (38946) RTC: Waiting for SNTP sync... (22500/30000 ms)[0m
+[1970-01-01 05:30:39] [0;32mI (39486) RTC: Waiting for SNTP sync... (23000/30000 ms)[0m
+[1970-01-01 05:30:39] [0;32mI (40036) RTC: Waiting for SNTP sync... (23500/30000 ms)[0m
+[1970-01-01 05:30:40] [0;32mI (40586) RTC: Waiting for SNTP sync... (24000/30000 ms)[0m
+[1970-01-01 05:30:40] [0;32mI (41136) RTC: Waiting for SNTP sync... (24500/30000 ms)[0m
+[1970-01-01 05:30:41] [0;32mI (41686) RTC: Waiting for SNTP sync... (25000/30000 ms)[0m
+[1970-01-01 05:30:42] [0;32mI (42366) RTC: Waiting for SNTP sync... (25500/30000 ms)[0m
+[1970-01-01 05:30:42] [0;32mI (42906) RTC: Waiting for SNTP sync... (26000/30000 ms)[0m
+[1970-01-01 05:30:43] [0;32mI (43456) RTC: Waiting for SNTP sync... (26500/30000 ms)[0m
+[1970-01-01 05:30:43] [0;32mI (44006) RTC: Waiting for SNTP sync... (27000/30000 ms)[0m
+[1970-01-01 05:30:44] [0;32mI (44556) RTC: Waiting for SNTP sync... (27500/30000 ms)[0m
+[1970-01-01 05:30:44] [0;32mI (45106) RTC: Waiting for SNTP sync... (28000/30000 ms)[0m
+[1970-01-01 05:30:45] [0;32mI (45656) RTC: Waiting for SNTP sync... (28500/30000 ms)[0m
+[1970-01-01 05:30:45] [0;32mI (46196) RTC: Waiting for SNTP sync... (29000/30000 ms)[0m
+[1970-01-01 05:30:46] [0;32mI (46746) RTC: Waiting for SNTP sync... (29500/30000 ms)[0m
+[1970-01-01 05:30:46] [0;33mW (47296) RTC: SNTP sync timed out after 30000 ms[0m
+[1970-01-01 05:30:47] [0;33mW (47386) RTC: Running with unsynced clock[0m
+[1970-01-01 05:30:50] [0;32mI (50436) USB_UPDATE: USB update task started[0m
+[1970-01-01 05:30:50] [0;32mI (50436) Main: USB update task created successfully[0m
+[1970-01-01 05:30:50] [0;32mI (50746) Main: lcd_bl_timer task created successfully[0m
+[1970-01-01 05:30:50] [0;32mI (50816) Main: Starting application[0m
+[1970-01-01 05:30:51] [0;32mI (51846) main_task: Returned from app_main()[0m
+[1970-01-01 05:31:13] [0;31mE (74316) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[1970-01-01 05:31:14] [0;31mE (74336) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[1970-01-01 05:31:14] [0;32mI (74376) USB_UPDATE: USB connected - installing device[0m
+[1970-01-01 05:31:14] [0;31mE (75136) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[1970-01-01 05:31:14] [0;31mE (75176) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[1970-01-01 05:31:15] [0;32mI (76316) USB_UPDATE: CSV copied to LittleFS[0m
+[1970-01-01 05:31:16] [0;32mI (76366) PASSWORD: Password file copied to LittleFS[0m
+[1970-01-01 05:31:16] [0;32mI (76416) WIFI_MANAGER: wifi cred txt copied to LittleFS[0m
+[1970-01-01 05:31:16] [0;32mI (76606) PASSWORD: Password loaded[0m
+[1970-01-01 05:31:16] [0;32mI (76636) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 05:31:16] [0;32mI (76666) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 05:31:16] [0;32mI (76696) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 05:31:33] [0;32mI (94166) BUTTON: Buzzer silenced[0m
+[1970-01-01 05:31:55] [0;32mI (116146) ACTIVITY_COPY: Activity log exported to USB[0m
+[1970-01-01 05:31:55] [0;32mI (116196) LOG_MANAGER: LittleFS log file size: 13708 bytes[0m
+[1970-01-01 05:31:55] [0;32mI (116276) LOG_MANAGER: log.txt copied to USB successfully[0m
+[1970-01-01 05:31:55] [0;32mI (116316) GITHUB_UPLOADER: Starting Base64 test...[0m
+[1970-01-01 05:31:56] [0;32mI (116366) TIME: Year now = 1970[0m
+[1970-01-01 05:31:56] [0;32mI (116416) TIME: Hour now = 5[0m
+[1970-01-01 05:31:56] [0;32mI (116456) GITHUB_UPLOADER: Uploading as: 1970-01-01_05-31-56.txt[0m
