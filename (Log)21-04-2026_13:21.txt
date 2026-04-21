@@ -1,0 +1,137 @@
+[1970-01-01 00:00:00] [0;32mI (623) Main: Step 3: System initialize[0m
+[1970-01-01 00:00:00] [0;32mI (703) PASSWORD: Password loaded[0m
+[1970-01-01 00:00:00] [0;32mI (723) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:00] [0;32mI (743) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:00] [0;32mI (753) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:01] [0;32mI (1843) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1853) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1893) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1923) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1953) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1983) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;33mW (2023) LORA: Entering the receiver mode...[0m
+[1970-01-01 00:00:01] [0;32mI (2053) LORA: LoRa set to continuous receive mode.[0m
+[1970-01-01 00:00:01] [0;32mI (2203) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[1970-01-01 00:00:01] [0;32mI (2043) Main: lcd_bl_timer task created successfully[0m
+[1970-01-01 00:00:01] [0;32mI (2263) USB_UPDATE: USB update task started[0m
+[1970-01-01 00:00:01] [0;32mI (2283) Main: USB update task created successfully[0m
+[1970-01-01 00:00:02] [0;32mI (2353) Main: Step 4: Waiting for WiFi[0m
+[1970-01-01 00:00:02] [0;32mI (2403) pp: pp rom version: e7ae62f[0m
+[1970-01-01 00:00:02] [0;32mI (2443) net80211: net80211 rom version: e7ae62f[0m
+[1970-01-01 00:00:02] I (2493) wifi:[1970-01-01 00:00:02] wifi driver task: 3fcbfaf8, prio:23, stack:6656, core=0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2613) wifi:[1970-01-01 00:00:02] wifi firmware version: ccaebfa[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2713) wifi:[1970-01-01 00:00:02] wifi certification version: v7.0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2903) wifi:[1970-01-01 00:00:02] config NVS flash: enabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2993) wifi:[1970-01-01 00:00:02] config nano formating: disabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3083) wifi:[1970-01-01 00:00:02] Init data frame dynamic rx buffer num: 32[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3173) wifi:[1970-01-01 00:00:02] Init static rx mgmt buffer num: 5[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3273) wifi:[1970-01-01 00:00:03] Init management short buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3473) wifi:[1970-01-01 00:00:03] Init dynamic tx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3563) wifi:[1970-01-01 00:00:03] Init static tx FG buffer num: 2[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3653) wifi:[1970-01-01 00:00:03] Init static rx buffer size: 1600[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3753) wifi:[1970-01-01 00:00:03] Init static rx buffer num: 10[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3873) wifi:[1970-01-01 00:00:03] Init dynamic rx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] [0;32mI (4053) wifi_init: rx ba win: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4083) wifi_init: accept mbox: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4113) wifi_init: tcpip mbox: 32[0m
+[1970-01-01 00:00:03] [0;32mI (4143) wifi_init: udp mbox: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4193) wifi_init: tcp mbox: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4223) wifi_init: tcp tx win: 5760[0m
+[1970-01-01 00:00:03] [0;32mI (4253) wifi_init: tcp rx win: 5760[0m
+[1970-01-01 00:00:03] [0;32mI (4293) wifi_init: tcp mss: 1440[0m
+[1970-01-01 00:00:03] [0;32mI (4323) wifi_init: WiFi IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4353) wifi_init: WiFi RX IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4413) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:04] [0;32mI (4463) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:04] [0;32mI (4473) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:05] [0;32mI (5583) WIFI_MANAGER: Using stored WiFi credentials[0m
+[1970-01-01 00:00:05] I (5593) wifi:[1970-01-01 00:00:05] Set ps type: 0, coexist: 0
+[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] [0;32mI (5633) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[1970-01-01 00:00:05] I (5693) wifi:[1970-01-01 00:00:05] mode : sta (98:a3:16:d1:20:f8)[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (5733) wifi:[1970-01-01 00:00:05] enable tsf[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] [0;32mI (5793) WIFI_MANAGER: WiFi Started. Connecting...[0m
+[1970-01-01 00:00:05] [0;32mI (5793) WIFI_MANAGER: WiFi initialization finished[0m
+[1970-01-01 00:00:05] I (6053) wifi:[1970-01-01 00:00:05] state: auth -> assoc (0x0)[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (6113) wifi:[1970-01-01 00:00:05] state: assoc -> run (0x10)[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (6223) wifi:[1970-01-01 00:00:05] connected with Paras 2.4, aid = 2, channel 10, BW20, bssid = 40:ed:00:55:66:41[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (6323) wifi:[1970-01-01 00:00:06] security: WPA2-PSK, phy: bgn, rssi: -40[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6513) wifi:[1970-01-01 00:00:06] pm start, type: 0
+[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6603) wifi:[1970-01-01 00:00:06] dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6713) wifi:[1970-01-01 00:00:06] set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6803) wifi:[1970-01-01 00:00:06] AP's beacon interval = 102400 us, DTIM period = 1[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6943) wifi:[1970-01-01 00:00:06] <ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), tid:0, ssn:2, winSize:64[1970-01-01 00:00:06] 
+[1970-01-01 00:00:07] [0;32mI (7893) esp_netif_handlers: sta ip: 192.168.1.163, mask: 255.255.255.0, gw: 192.168.1.102[0m
+[1970-01-01 00:00:07] [0;32mI (7933) WIFI_MANAGER: Got IP: 192.168.1.163[0m
+[1970-01-01 00:00:07] [0;32mI (7963) WIFI_MANAGER: Connected to WiFi successfully[0m
+[1970-01-01 00:00:08] [0;32mI (8993) RTC_DRIVER: RTC Init Started[0m
+[1970-01-01 05:30:08] [0;32mI (9033) RTC_DRIVER: Initializing SNTP[0m
+[1970-01-01 05:30:08] [0;32mI (9063) RTC_DRIVER: Waiting for time sync... (1/15)[0m
+[1970-01-01 05:30:10] [0;32mI (11093) RTC_DRIVER: Waiting for time sync... (2/15)[0m
+[2026-04-21 13:09:48] I (11863) wifi:[2026-04-21 13:09:48] <ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), tid:1, ssn:1, winSize:64[2026-04-21 13:09:48] 
+[2026-04-21 13:09:49] [0;32mI (13133) RTC_DRIVER: Time synchronized successfully[0m
+[2026-04-21 13:09:56] [0;32mI (20203) main_task: Returned from app_main()[0m
+[2026-04-21 13:10:20] [0;32mI (44113) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-04-21 13:10:20] [0;32mI (44153) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-04-21 13:10:20] [0;32mI (44203) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-04-21 13:10:20] [0;32mI (44333) ACTIVITY_LOG: Log stored. Total: 1[0m
+[2026-04-21 13:10:20] [0;32mI (44373) LORA_RECEIVE: Received at: 21-04-2026 13:10[0m
+[2026-04-21 13:10:20] [0;33mW (44413) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:10:20] [0;32mI (44453) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:10:23] [0;32mI (47403) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-04-21 13:10:23] [0;32mI (47443) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-04-21 13:10:24] [0;32mI (47483) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-04-21 13:10:24] [0;32mI (47543) ACTIVITY_LOG: Log stored. Total: 2[0m
+[2026-04-21 13:10:24] [0;32mI (47583) LORA_RECEIVE: Received at: 21-04-2026 13:10[0m
+[2026-04-21 13:10:24] [0;33mW (47633) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:10:24] [0;32mI (47673) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:10:30] [0;32mI (53533) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-04-21 13:10:30] [0;32mI (53663) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-04-21 13:10:30] [0;32mI (53693) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-04-21 13:10:30] [0;32mI (53723) ACTIVITY_LOG: Log stored. Total: 3[0m
+[2026-04-21 13:10:30] [0;32mI (53753) LORA_RECEIVE: Received at: 21-04-2026 13:10[0m
+[2026-04-21 13:10:30] [0;33mW (53783) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:10:30] [0;32mI (53813) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:10:34] [0;32mI (57673) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-04-21 13:10:34] [0;32mI (57693) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-04-21 13:10:34] [0;32mI (57743) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-04-21 13:10:34] [0;32mI (57783) ACTIVITY_LOG: Log stored. Total: 4[0m
+[2026-04-21 13:10:34] [0;32mI (57923) LORA_RECEIVE: Received at: 21-04-2026 13:10[0m
+[2026-04-21 13:10:34] [0;33mW (57953) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:10:34] [0;32mI (57983) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:11:29] [0;32mI (113453) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-04-21 13:11:30] [0;32mI (113473) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-04-21 13:11:30] [0;32mI (113523) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-04-21 13:11:30] [0;32mI (113563) ACTIVITY_LOG: Log stored. Total: 5[0m
+[2026-04-21 13:11:30] [0;32mI (113613) LORA_RECEIVE: Received at: 21-04-2026 13:11[0m
+[2026-04-21 13:11:30] [0;33mW (113643) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:11:30] [0;32mI (113673) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:17:07] [0;32mI (450943) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-04-21 13:17:07] [0;32mI (450983) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-04-21 13:17:07] [0;32mI (451143) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-04-21 13:17:07] [0;32mI (451183) ACTIVITY_LOG: Log stored. Total: 6[0m
+[2026-04-21 13:17:07] [0;32mI (451213) LORA_RECEIVE: Received at: 21-04-2026 13:17[0m
+[2026-04-21 13:17:07] [0;33mW (451243) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:17:07] [0;32mI (451273) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:17:12] [0;32mI (455753) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-04-21 13:17:12] [0;32mI (455793) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-04-21 13:17:12] [0;32mI (455823) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-04-21 13:17:12] [0;32mI (455963) ACTIVITY_LOG: Log stored. Total: 7[0m
+[2026-04-21 13:17:12] [0;32mI (456003) LORA_RECEIVE: Received at: 21-04-2026 13:17[0m
+[2026-04-21 13:17:12] [0;33mW (456033) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:17:12] [0;32mI (456063) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:21:27] [0;32mI (710703) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-04-21 13:21:27] [0;32mI (710743) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-04-21 13:21:27] [0;32mI (710783) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-04-21 13:21:27] [0;32mI (710843) ACTIVITY_LOG: Log stored. Total: 8[0m
+[2026-04-21 13:21:27] [0;32mI (710883) LORA_RECEIVE: Received at: 21-04-2026 13:21[0m
+[2026-04-21 13:21:27] [0;33mW (711023) LORA: Entering the receiver mode...[0m
+[2026-04-21 13:21:27] [0;32mI (711063) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-21 13:21:47] [0;31mE (731023) ACTIVITY_COPY: Failed to open USB file[0m
+[2026-04-21 13:21:47] [0;32mI (731073) LOG_MANAGER: LittleFS log file size: 11964 bytes[0m
+[2026-04-21 13:21:47] [0;31mE (731113) LOG_MANAGER: Cannot open /usb/log.txt[0m
+[2026-04-21 13:21:47] [0;32mI (731163) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-04-21 13:21:47] [0;32mI (731203) TIME: Year now = 2026[0m
+[2026-04-21 13:21:47] [0;32mI (731263) TIME: Hour now = 13[0m
+[2026-04-21 13:21:47] [0;32mI (731293) GITHUB_UPLOADER: Uploading as: (Log)21-04-2026_13:21.txt[0m
