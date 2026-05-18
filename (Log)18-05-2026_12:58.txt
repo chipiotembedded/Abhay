@@ -1,0 +1,85 @@
+[1970-01-01 00:00:00] [0;32mI (623) Main: Step 3: System initialize[0m
+[1970-01-01 00:00:00] [0;32mI (713) PASSWORD: Password loaded[0m
+[1970-01-01 00:00:00] [0;32mI (743) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:00] [0;32mI (753) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:00] [0;32mI (893) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:01] [0;32mI (1893) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1903) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1943) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1973) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (2003) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (2123) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;33mW (2173) LORA: Entering the receiver mode...[0m
+[1970-01-01 00:00:01] [0;32mI (2223) LORA: LoRa set to continuous receive mode.[0m
+[1970-01-01 00:00:01] [0;32mI (2273) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[1970-01-01 00:00:01] [0;32mI (2173) Main: lcd_bl_timer task created successfully[0m
+[1970-01-01 00:00:01] [0;32mI (2333) USB_UPDATE: USB update task started[0m
+[1970-01-01 00:00:02] [0;32mI (2363) USB_UPDATE: Waiting for USB device[0m
+[1970-01-01 00:00:02] [0;32mI (2343) Main: USB update task created successfully[0m
+[1970-01-01 00:00:02] [0;32mI (2423) Main: Step 4: Waiting for WiFi[0m
+[1970-01-01 00:00:02] [0;32mI (2473) pp: pp rom version: e7ae62f[0m
+[1970-01-01 00:00:02] [0;32mI (2523) net80211: net80211 rom version: e7ae62f[0m
+[1970-01-01 00:00:02] I (2563) wifi:[1970-01-01 00:00:02] wifi driver task: 3fcbfbac, prio:23, stack:6656, core=0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2803) wifi:[1970-01-01 00:00:02] wifi firmware version: ccaebfa[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2883) wifi:[1970-01-01 00:00:02] wifi certification version: v7.0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2973) wifi:[1970-01-01 00:00:02] config NVS flash: enabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3063) wifi:[1970-01-01 00:00:02] config nano formating: disabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3173) wifi:[1970-01-01 00:00:02] Init data frame dynamic rx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3423) wifi:[1970-01-01 00:00:03] Init static rx mgmt buffer num: 5[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3523) wifi:[1970-01-01 00:00:03] Init management short buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3613) wifi:[1970-01-01 00:00:03] Init dynamic tx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3713) wifi:[1970-01-01 00:00:03] Init static tx FG buffer num: 2[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3813) wifi:[1970-01-01 00:00:03] Init static rx buffer size: 1600[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (4063) wifi:[1970-01-01 00:00:03] Init static rx buffer num: 10[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (4163) wifi:[1970-01-01 00:00:03] Init dynamic rx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] [0;32mI (4273) wifi_init: rx ba win: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4313) wifi_init: accept mbox: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4353) wifi_init: tcpip mbox: 32[0m
+[1970-01-01 00:00:04] [0;32mI (4403) wifi_init: udp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4443) wifi_init: tcp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4493) wifi_init: tcp tx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4533) wifi_init: tcp rx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4583) wifi_init: tcp mss: 1440[0m
+[1970-01-01 00:00:04] [0;32mI (4633) wifi_init: WiFi IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4803) wifi_init: WiFi RX IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4863) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:04] [0;32mI (4893) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:04] [0;32mI (4923) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:05] [0;32mI (5953) WIFI_MANAGER: Using stored WiFi credentials[0m
+[1970-01-01 00:00:05] I (5973) wifi:[1970-01-01 00:00:05] Set ps type: 0, coexist: 0
+[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] [0;32mI (6073) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[1970-01-01 00:00:05] I (6133) wifi:[1970-01-01 00:00:05] mode : sta (98:a3:16:d1:20:f8)[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (6243) wifi:[1970-01-01 00:00:05] enable tsf[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] [0;32mI (6453) WIFI_MANAGER: WiFi Started. Connecting...[0m
+[1970-01-01 00:00:06] [0;32mI (6453) WIFI_MANAGER: WiFi initialization finished[0m
+[1970-01-01 00:00:06] I (6493) wifi:[1970-01-01 00:00:06] new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6613) wifi:[1970-01-01 00:00:06] state: init -> auth (0xb0)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6723) wifi:[1970-01-01 00:00:06] state: auth -> assoc (0x0)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6813) wifi:[1970-01-01 00:00:06] state: assoc -> run (0x10)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6923) wifi:[1970-01-01 00:00:06] connected with Paras 2.4, aid = 4, channel 11, BW20, bssid = 40:ed:00:55:66:41[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7153) wifi:[1970-01-01 00:00:06] security: WPA2-PSK, phy: bgn, rssi: -35[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7253) wifi:[1970-01-01 00:00:06] pm start, type: 0
+[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7343) wifi:[1970-01-01 00:00:07] dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7433) wifi:[1970-01-01 00:00:07] set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7533) wifi:[1970-01-01 00:00:07] AP's beacon interval = 102400 us, DTIM period = 1[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7843) wifi:[1970-01-01 00:00:07] <ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), tid:0, ssn:3, winSize:64[1970-01-01 00:00:07] 
+[1970-01-01 00:00:08] [0;32mI (8783) esp_netif_handlers: sta ip: 192.168.1.172, mask: 255.255.255.0, gw: 192.168.1.102[0m
+[1970-01-01 00:00:08] [0;32mI (8823) WIFI_MANAGER: Got IP: 192.168.1.172[0m
+[1970-01-01 00:00:08] [0;32mI (8853) WIFI_MANAGER: Connected to WiFi successfully[0m
+[1970-01-01 00:00:09] [0;32mI (9883) RTC_DRIVER: RTC Init Started[0m
+[1970-01-01 05:30:09] [0;32mI (9923) RTC_DRIVER: Initializing SNTP[0m
+[1970-01-01 05:30:09] [0;32mI (9963) RTC_DRIVER: Waiting for time sync... (1/15)[0m
+[1970-01-01 05:30:11] [0;32mI (12003) RTC_DRIVER: Waiting for time sync... (2/15)[0m
+[1970-01-01 05:30:11] I (12183) wifi:[1970-01-01 05:30:11] <ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), tid:4, ssn:1, winSize:64[1970-01-01 05:30:12] 
+[2026-05-18 12:57:01] [0;32mI (14043) RTC_DRIVER: Time synchronized successfully[0m
+[2026-05-18 12:57:08] [0;32mI (21113) main_task: Returned from app_main()[0m
+[2026-05-18 12:57:54] [0;32mI (66893) SCREEN: Entering Flat Owner screen[0m
+[2026-05-18 12:58:54] [0;31mE (126933) ACTIVITY_COPY: Failed to open source file[0m
+[2026-05-18 12:58:54] [0;32mI (126983) LOG_MANAGER: LittleFS log file size: 7521 bytes[0m
+[2026-05-18 12:58:54] [0;31mE (127033) LOG_MANAGER: Cannot open /usb/log.txt[0m
+[2026-05-18 12:58:54] [0;32mI (127073) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-05-18 12:58:54] [0;32mI (127123) TIME: Year now = 2026[0m
+[2026-05-18 12:58:54] [0;32mI (127163) TIME: Hour now = 12[0m
+[2026-05-18 12:58:54] [0;32mI (127213) GITHUB_UPLOADER: Uploading as: (Log)18-05-2026_12:58.txt[0m
